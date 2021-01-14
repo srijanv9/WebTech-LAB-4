@@ -1,0 +1,75 @@
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <h2><b>Enter your credentials here..</b></h2>
+        <form action="#">
+            <table>
+                <tr>
+                    <th><label><span>First Name</span></label></th>
+                    <td><input type="text" placeholder="Type you First Name"></td>
+                </tr>
+                <tr>
+                    <th><label><span>Last Name</span></label></th>
+                    <td><input type="text" placeholder="Type you Last Name"></td>
+                </tr>
+                <tr>
+                    <th><label><span>Email</span></label></th>
+                    <td><input type="email" placeholder="Type in you Email ID"></td>
+                </tr>
+                <tr>
+                    <th><label><span>Password</span></label></th>
+                    <td><input type="password" placeholder="Type you Password"></td>
+                </tr>
+                <tr>
+                    <th><label><span>Date of birth</span></label></th>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <th><label><span>State :</span></label></th>
+                    <td>
+                        <select name="state" id="state">
+                            <option value="None">None</option>
+                            <option value="Jharkhand">None</option>
+                            <option value="Odisha">Odisha</option>
+                            <option value="West Bengal">West Bengal</option>
+                            <option value="Bihar">Bihar</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label><span>Enter your feedback</span></label></th>
+                    <td><textarea name="Suggestion" cols="30" rows="5" placeholder="Type your suggestions"></textarea></td>
+                </tr>
+                <tr>
+                    <th>
+                        <fieldset>
+                            <legend >Gender</legend>
+                        
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" name="gender" id="others" value="others">
+                        <label for="others">Others</label><br>
+                    </fieldset>
+                    </th>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label>Do you agree aur terms and conditions</label>
+                        <input type="checkbox" name="#" id="#">
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                    <td><button type="button">Download your response</button></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
